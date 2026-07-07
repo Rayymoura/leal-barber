@@ -18,11 +18,11 @@ const NAV_LINKS = [
 ];
 
 const GALLERY = [
-  { src: "/images/trabalho-corte-desenho.jpg", alt: "Corte degradê com desenho na navalha" },
-  { src: "/images/trabalho-navalha.jpg", alt: "Acabamento na navalha" },
-  { src: "/images/trabalho-degrade.jpg", alt: "Degradê na máquina" },
-  { src: "/images/espaco-interior.jpg", alt: "Interior da Leal Barber" },
-  { src: "/images/produtos.jpg", alt: "Produtos profissionais à venda" },
+  { src: "images/trabalho-corte-desenho.jpg", alt: "Corte degradê com desenho na navalha" },
+  { src: "images/trabalho-navalha.jpg", alt: "Acabamento na navalha" },
+  { src: "images/trabalho-degrade.jpg", alt: "Degradê na máquina" },
+  { src: "images/espaco-interior.jpg", alt: "Interior da Leal Barber" },
+  { src: "images/produtos.jpg", alt: "Produtos profissionais à venda" },
 ];
 
 const SERVICES = [
@@ -163,7 +163,7 @@ export default function App() {
       <section
         id="inicio"
         className="relative min-h-screen flex items-center justify-center bg-cover bg-center overflow-hidden"
-        style={{ backgroundImage: "url('/images/hero-background.jpg')" }}
+        style={{ backgroundImage: "url('images/hero-background.jpg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-slate-900"></div>
 
@@ -226,7 +226,7 @@ export default function App() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-12">
               <div className="rounded-xl overflow-hidden border border-gray-700 shadow-2xl shadow-black/50">
                 <img
-                  src="/images/nicolle-atendimento.jpg"
+                  src="images/nicolle-atendimento.jpg"
                   alt="Nicolle Leal fazendo barba na navalha em um cliente"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   loading="lazy"
@@ -336,7 +336,7 @@ export default function App() {
             <div className="grid grid-cols-2 gap-6">
               <div className="relative rounded-xl overflow-hidden border border-gray-700 group">
                 <img
-                  src="/images/antes.jpg"
+                  src="images/antes.jpg"
                   alt="Cliente antes do corte"
                   className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
@@ -347,7 +347,7 @@ export default function App() {
               </div>
               <div className="relative rounded-xl overflow-hidden border border-gold-400 group">
                 <img
-                  src="/images/depois.jpg"
+                  src="images/depois.jpg"
                   alt="Cliente depois do corte com degradê"
                   className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
@@ -487,7 +487,7 @@ export default function App() {
               <div className="space-y-6">
                 <div className="rounded-xl overflow-hidden border border-gray-700">
                   <img
-                    src="/images/fachada-leal-barber.jpg"
+                    src="images/fachada-leal-barber.jpg"
                     alt="Fachada da Leal Barber"
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
                     loading="lazy"
